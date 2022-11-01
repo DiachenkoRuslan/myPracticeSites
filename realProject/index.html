@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+            <!-- HEADER -->
+            <div class="w3-container w3-black">
+
+                <h1>SoulForum</h1>
+                
+                
+                <div class="w3-bar nav">
+                    <button class="w3-button menubtn" id="menubtn" onclick="w3_open()">☰</button>
+                    <a href="" class="w3-bar-item w3-hover-white w3-button">Home</a>
+                    <a href="" class="w3-bar-item w3-hover-white w3-button">Forum</a>
+                    <a href="" class="w3-bar-item w3-hover-white w3-button">About</a>
+                    <a href="" class="w3-bar-item w3-hover-white w3-button">Login/Register</a>
+                </div>
+            </div>
+
+            <!-- MAIN -->
+
+            <div class="w3-container main">
+                    <div class="w3-panel w3-border w3-border-black">
+                        <h4>Panel 1</h4>
+                        <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. Fusce ex nunc, vulputate in sapien lobortis, lobortis feugiat justo. 
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                            Proin sed bibendum purus, quis venenatis est. Morbi viverra sollicitudin lacus sed elementum.
+                             Vestibulum sodales augue vitae ante mattis ultricies. Cras vel eros lectus. Morbi ligula urna,
+                            lacinia sed scelerisque eu, congue eget turpis. Suspendisse potenti. Integer eget felis dolor.
+                            Aenean ac velit eget nibh mattis mollis ut vitae ipsum. Interdum et malesuada fames ac ante ipsum primis
+                            in faucibus. Duis eleifend ligula eu arcu auctor auctor. Aenean sagittis ut ante sed malesuada.
+                            Donec feugiat odio a quam vehicula tincidunt id sed purus. Ut aliquet convallis elementum. 
+                            Curabitur rhoncus metus justo, a commodo massa tempor vel.
+                        </p>
+                    </div>
+                    <div class="w3-panel w3-border w3-border-black">
+                        <h4>Panel 2</h4>
+                        <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. Fusce ex nunc, vulputate in sapien lobortis, lobortis feugiat justo. 
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                            Proin sed bibendum purus, quis venenatis est. Morbi viverra sollicitudin lacus sed elementum.
+                            Vestibulum sodales augue vitae ante mattis ultricies. Cras vel eros lectus. Morbi ligula urna,
+                            lacinia sed scelerisque eu, congue eget turpis. Suspendisse potenti. Integer eget felis dolor.
+                            Aenean ac velit eget nibh mattis mollis ut vitae ipsum. Interdum et malesuada fames ac ante ipsum primis
+                            in faucibus. Duis eleifend ligula eu arcu auctor auctor. Aenean sagittis ut ante sed malesuada.
+                            Donec feugiat odio a quam vehicula tincidunt id sed purus. Ut aliquet convallis elementum. 
+                            Curabitur rhoncus metus justo, a commodo massa tempor vel.
+                        </p>
+                    </div>
+                    <div class="w3-panel w3-border w3-border-black">
+                        <h4>Panel 3</h4>
+                        <p>Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. Fusce ex nunc, vulputate in sapien lobortis, lobortis feugiat justo. 
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                            Proin sed bibendum purus, quis venenatis est. Morbi viverra sollicitudin lacus sed elementum.
+                            Vestibulum sodales augue vitae ante mattis ultricies. Cras vel eros lectus. Morbi ligula urna,
+                            lacinia sed scelerisque eu, congue eget turpis. Suspendisse potenti. Integer eget felis dolor.
+                            Aenean ac velit eget nibh mattis mollis ut vitae ipsum. Interdum et malesuada fames ac ante ipsum primis
+                            in faucibus. Duis eleifend ligula eu arcu auctor auctor. Aenean sagittis ut ante sed malesuada.
+                            Donec feugiat odio a quam vehicula tincidunt id sed purus. Ut aliquet convallis elementum. 
+                            Curabitur rhoncus metus justo, a commodo massa tempor vel.
+                        </p>
+                    </div>
+
+            </div>
+
+            <!-- SideBar -->
+
+            <div class="w3-sidebar w3-bar-block w3-border-top w3-border-right w3-border-black sidebar" style="display: none;" id="mySidebar">
+                <button onclick="w3_close()" class="w3-bar-item w3-red" id="">Close &times;</button>
+                <div class="w3-panel formpanel"  id="formpanel">
+                    <h3>Login/Register</h3>
+                    <form action="">
+                        <label for="">NickName</label>
+                        <input class="w3-input" type="text">
+                        <label for="">Password</label>
+                        <input class="w3-input" type="password"><br>
+                        <input  class="w3-input" type="submit" value="Submit"><br>
+                    </form>
+                </div>
+            
+            </div>
+
+            <!-- FOOTER -->
+            <div class="w3-row">
+                <div class="w3-container w3-black footer">
+
+                    <p>All right</p>
+
+                </div>
+            </div>
+    
+            <script>
+                function w3_open() {
+                  document.getElementById("mySidebar").style.display = "block";
+                  document.getElementById("menubtn").style.display = "none"
+                }
+                
+                function w3_close() {
+                  document.getElementById("mySidebar").style.display = "none";
+                  document.getElementById("menubtn").style.display = "block"
+                }
+                </script>
+
+</body>
+</html>

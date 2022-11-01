@@ -1,0 +1,19 @@
+html, body{
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 100%;
+    overflow: auto;
+    font-family: cursive;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header{
+    position: fixed;
+}
+.menubtn{
+    float: left;
+}
+.formpanel{
+    overflow: auto;
+}

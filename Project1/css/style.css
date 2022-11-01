@@ -1,0 +1,9 @@
+html, body{
+    min-height: 100%;
+}
+.minibar{
+    border: 2px solid cyan;
+}
+.contentLeft{
+    overflow: auto;
+}
